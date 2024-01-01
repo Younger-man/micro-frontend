@@ -1,0 +1,16 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "* 通过请求获取微应用列表数据，动态进行微应用的预获取和导航创建处理 * 根据导航进行微应用的切换，切换的过程会动态加载和执行 JS 和 CSS 资源 * 微应用需要提供 mount 和 unmount 全局函数，方便主应用进行加载和卸载处理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:main": "node mainServer.mjs",
+    "start:micro": "node microServer.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
+}
